@@ -96,13 +96,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>tesla-frontend-releases</name>
-	      <url>http://3.86.206.45:8081/repository/tesla-frontend-releases/</url>
+	      <name>facebook-release-app</name>
+	      <url>http://3.86.206.45:8081/repository/facebook-release-app/</url>
 	    </repository>
 	 <snapshotRepository>
 	      <id>nexus</id>
-	      <name>tesla-frontend-snapshort</name>
-	      <url>http://3.86.206.45:8081/repository/tesla-frontend-snapshort/</url>
+	      <name>facebook-snapshot-app</name>
+	      <url>http://3.86.206.45:8081/repository/facebook-snapshot-app/</url>
 	    </snapshotRepository>
 	</distributionManagement>	
 	<build>
