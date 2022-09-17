@@ -3,13 +3,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>facebook-app</artifactId>
+	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1</version>
 	
-	<name>facebook-app</name>
+	<name>maven-web-application</name>
 
-	<description>facebook-app Web Project for Java Project</description>
+	<description>Maven Web Project for Java Project</description>
 
 	<organization>
 		<name>Landmark Technologies</name>
@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://54.88.101.104:9000/</sonar.host.url>
+		<sonar.host.url>http://3.81.226.1:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -96,17 +96,17 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>facebook-release-app</name>
-	      <url>http://3.86.206.45:8081/repository/facebook-release-app/</url>
+	      <name>tesla-frontend-releases</name>
+	      <url>http://44.201.252.46:8081/repository/tesla-frontend-releases/</url>
 	    </repository>
 	 <snapshotRepository>
 	      <id>nexus</id>
-	      <name>facebook-snapshot-app</name>
-	      <url>http://3.86.206.45:8081/repository/facebook-snapshot-app/</url>
+	      <name>tesla-frontend-snapshort</name>
+	      <url>http://44.201.252.46:8081/repository/tesla-frontend-snapshort/</url>
 	    </snapshotRepository>
 	</distributionManagement>	
 	<build>
-		<finalName>facebook-app</finalName>
+		<finalName>maven-web-app</finalName>
 		
 		<plugins>
 			<plugin>
@@ -126,7 +126,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/facebook-app</contextPath>
+						<contextPath>/maven-web-application</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -139,7 +139,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>facebook-app</wtpContextName>
+					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
 			
